@@ -12,7 +12,7 @@ fi
 
 # set server port from optional ENV var
 if [ ! -n "$SERVER_PORT" ] ; then
-    SERVER_PORT='80'
+    SERVER_PORT='8010'
 fi
 
 # set redirect code from optional ENV var

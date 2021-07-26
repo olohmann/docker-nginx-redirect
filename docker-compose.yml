@@ -1,7 +1,7 @@
 to:
   image: schmunk42/nginx-redirect
   ports:
-    - "8888:80"
+    - "8888:8010"
   environment:
     - SERVER_REDIRECT=www.example.com
     # optionally define path to redirect all requests
